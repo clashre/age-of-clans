@@ -78,7 +78,7 @@ age-of-clans/
 - **Servidor Web**: Express (Node.js)
 - **Base de Datos**: SQLite (desarrollo) / PostgreSQL (producción)
 - **Frontend**: HTML5, CSS3, JavaScript Vanilla
-- **Canvas/Gráficos**: Phaser 3 o PixiJS
+- **Canvas/Gráficos**: Phaser 3
 
 ## 🚀 Inicio Rápido
 
@@ -111,10 +111,7 @@ npm install
 npm start
 ```
 
-4. Abre el cliente web
-```
-http://localhost:3000
-```
+4. Abre el cliente web en `http://localhost:3000`
 
 ## 📖 Documentación
 
@@ -124,11 +121,7 @@ http://localhost:3000
 
 ## 📝 Licencia
 
-MIT License - Ver LICENSE para más detalles
-
-## 👨‍💻 Contribuyentes
-
-- clashre (Developer)
+MIT License
 
 ---
 

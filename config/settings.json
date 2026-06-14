@@ -1,0 +1,32 @@
+{
+  "game": {
+    "name": "Age of Clans",
+    "version": "0.1.0",
+    "environment": "development"
+  },
+  "server": {
+    "python": {
+      "host": "0.0.0.0",
+      "port": 8000,
+      "debug": true
+    },
+    "node": {
+      "host": "0.0.0.0",
+      "port": 3000,
+      "debug": true
+    }
+  },
+  "database": {
+    "type": "sqlite",
+    "path": "./age_of_clans.db"
+  },
+  "features": {
+    "multiplayer": false,
+    "pvp": false,
+    "clans": false,
+    "chat": false,
+    "npc_battles": true,
+    "progression": true,
+    "research": true
+  }
+}

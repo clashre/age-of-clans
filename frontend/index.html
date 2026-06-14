@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age of Clans - Strategy Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+</head>
+<body>
+    <div id="game-container"></div>
+    <div id="ui-container" class="ui-overlay">
+        <div class="hud">
+            <div class="resources">
+                <div class="resource-item">
+                    <span class="resource-icon">⚜️</span>
+                    <span class="resource-value" id="gold">0</span>
+                </div>
+                <div class="resource-item">
+                    <span class="resource-icon">💜</span>
+                    <span class="resource-value" id="elixir">0</span>
+                </div>
+            </div>
+            <div class="menu">
+                <button class="menu-btn" id="build-btn">Construir</button>
+                <button class="menu-btn" id="train-btn">Entrenar</button>
+                <button class="menu-btn" id="attack-btn">Atacar</button>
+                <button class="menu-btn" id="research-btn">Investigar</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
